@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 RUN apt-get -qqy update \
  && apt-get -y install curl irssi \
